@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "esnext",
+		"target": "es6",
+		"jsx": "react",
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@app*": ["./src/app"],
+			"@pages": ["./src/pages"],
+			"@entities": ["./src/entities"]
+		}
+	},
+	"include": ["src"]
+}
